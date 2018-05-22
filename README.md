@@ -1,8 +1,7 @@
 Welcome to Request Header Parser Microservice
 =============================================
 
-This microservice demonstrates parsing the request header to extract the endpoint the request is for.
-In order to demonstrate this the endpoint "/api/whoami" is exposed which will return the following JSON:
+This microservice demonstrates parsing the request header to extract information for the response to the request to the endpoint. In order to demonstrate this the endpoint "/api/whoami" is exposed which will return the following JSON:
 
 { "ipaddress" : <ip_address> ,
   "language"  : <language>,
